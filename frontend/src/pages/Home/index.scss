@@ -1,0 +1,100 @@
+.home {
+    .heading {
+
+        h1 {
+            margin: 20px;
+        }
+    }
+
+    .content {
+        min-height: 85.9vh;
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(white, rgb(165, 253, 253));
+
+        .elements {
+            margin-top: 100px;
+
+            .titles {
+                text-align: center;
+                width: 600px;
+
+                h3 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: 14pt
+                }
+            }
+
+            .input_field {
+                position: relative;
+
+                i {
+                    position: absolute;
+                    font-size: 20pt;
+                    top: 10px;
+                    left: 20px;
+                }
+
+                input {
+                    width: 100%;
+                    height: 50px;
+                    padding-left: 70px;
+                    font-weight: bold;
+                    border: none;
+                    border-radius: 20px;
+                    box-shadow: 0px 1px 30px 3px gainsboro;
+                }
+
+                .suggestions {
+
+                    P {
+                        width: 85%;
+                        padding: 10px 0;
+                        padding-left: 30px;
+                        margin: 0;
+                        margin-left: 40px;
+                        background-color: white;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .details {
+                width: 600px;
+                height: 200px;
+                background-color: white;
+                border-radius: 20px;
+                padding: 10px;
+                margin-top: 20px;
+
+                .stati {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+
+                    span {
+                        width: 33.33%;
+
+
+                        p {
+                            display: inline;
+                        }
+
+                        p:first-child {
+                            color: gray;
+                        }
+
+                        p:last-child {
+                            color: rgb(167, 24, 24);
+                            font-weight: bold;
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
